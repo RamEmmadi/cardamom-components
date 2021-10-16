@@ -1,11 +1,11 @@
 import React from 'react';
+import CardamomLoader from './loader/CardamomLoader';
 import './styles.scss';
 
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <CardamomLoader />
     </div>
   );
 }
