@@ -3,7 +3,7 @@ import './_loader.scss';
 
 const CardamomLoader = () => {
   return (
-    <div className="loader-wrapper loader-wrapper__small">
+    <div className="loader-wrapper loader-wrapper__big">
       <span className="hori-bar"></span>
     </div>
   );
