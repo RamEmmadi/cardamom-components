@@ -4,14 +4,15 @@ import Counter from './components/Counter';
 import './styles.scss';
 import UserForm from './components/UserForm';
 import ShowList from './components/ShowList';
-
+import { CalculateFactorial } from './Test';
 export default function App() {
   return (
     <div style={{ backgroundColor: 'white', height: '500px' }}>
       {/* <CardamomLoader /> */}
       {/* <Counter /> */}
       {/* <UserForm /> */}
-      <ShowList />
+      {/* <ShowList /> */}
+      <CalculateFactorial />
     </div>
   );
 }
